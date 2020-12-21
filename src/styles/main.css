@@ -18,6 +18,10 @@
   @apply flex flex-row justify-center items-center w-screen h-24 bg-primary rounded-b-2xl;
 }
 
+.profile {
+  @apply w-44 h-44 rounded-full;
+}
+
 @screen lg {
   .nav-icon {
     @apply p-4 my-4;
@@ -25,6 +29,10 @@
 
   .nav-bar {
     @apply flex-col w-32 h-screen rounded-r-3xl;
+  }
+
+  .profile {
+    @apply w-52 h-52;
   }
 }
 

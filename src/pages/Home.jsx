@@ -1,12 +1,8 @@
-import { images } from '../helpers/loader';
-
+import Profile from '../components/Profile';
 const Home = () => {
   return (
-    <div className="flex flex-col w-full">
-      <img
-        className="w-52 h-52 rounded-full"
-        src={images('profile')}
-      />
+    <div className="flex flex-col w-full items-center">
+      <Profile />
     </div>
   );
 };
