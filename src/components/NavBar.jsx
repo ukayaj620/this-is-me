@@ -6,13 +6,13 @@ const NavIcons = ({ icon, path, active }) => {
 
   return (
     <Link
-      className={`flex rounded-2xl p-4 mx-4 lg:my-4 ${active ? 'bg-white' : 'bg-transparent'}`}
+      className={`nav-icon ${active ? 'active' : 'non-active'}`}
       to={path}
     >
       <img
         className="w-8 lg:w-10"
         src={icons(_determineIcon(icon, active))}
-        alt={`${icon}-${active}`}
+        alt={`${icon}-${path}`}
       />
     </Link>
   );
@@ -23,7 +23,7 @@ const NavBar = () => {
   const _determineIsActive = path => path === _location.pathname;
 
   return (
-    <div className="flex flex-row lg:flex-col justify-center items-center lg:w-32 w-screen h-24 lg:h-screen bg-primary rounded-b-xl lg:rounded-r-2xl">
+    <div className="nav-bar">
       {NavList.map(({ icon, path }, index) => (
         <NavIcons
           key={`#nav-icon-${icon}-${index}`}

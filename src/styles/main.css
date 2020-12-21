@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
+
+/* NavIcon component style */
+.nav-icon {
+  @apply flex rounded-2xl p-3 mx-4;
+}
+
+.nav-icon.active {
+  @apply bg-white;
+}
+
+.nav-icon.non-active {
+  @apply bg-transparent;
+}
+
+.nav-bar {
+  @apply flex flex-row justify-center items-center w-screen h-24 bg-primary rounded-b-2xl;
+}
+
+@screen lg {
+  .nav-icon {
+    @apply p-4 my-4;
+  }
+
+  .nav-bar {
+    @apply flex-col w-32 h-screen rounded-r-3xl;
+  }
+}
+
 @tailwind utilities;
