@@ -1,11 +1,28 @@
 @tailwind base;
 
+h1 {
+  @apply font-primary text-2xl font-bold text-gray-900;
+}
+
+h4 {
+  @apply font-content text-sm text-gray-900;
+}
+
+@screen lg {
+  h1 {
+    @apply text-4xl;
+  }
+  
+  h4 {
+    @apply text-base;
+  }
+}
 
 @tailwind components;
 
 /* NavIcon component */
 .nav-icon {
-  @apply flex rounded-2xl p-3 mx-4;
+  @apply flex rounded-2xl p-3 mx-4 transition-colors duration-300;
 }
 
 .nav-icon.active {
