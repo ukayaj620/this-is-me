@@ -23,7 +23,7 @@ const NavBar = () => {
   const _determineIsActive = path => path === _location.pathname;
 
   return (
-    <div className="nav-bar">
+    <div className="nav-bar z-10">
       {NavList.map(({ icon, path }, index) => (
         <NavIcons
           key={`#nav-icon-${icon}-${index}`}
