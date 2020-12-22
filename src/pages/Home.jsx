@@ -33,7 +33,7 @@ const EducationSection = () => {
         <h2>My Education</h2>
         <div className="w-24 h-1 bg-gray-900 rounded-lg mt-2 mb-4" />
       </div>
-      <div className="w-full lg:w-4/5 flex flex-col items-end">
+      <div className="w-full lg:w-11/12 flex flex-col items-end">
         {personal().educationInfo.map(({ image, title, year, major, description }, index) => (
           <>
             <EduCard
