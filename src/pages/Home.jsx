@@ -9,7 +9,7 @@ const ProfileSection = () => {
       <Profile />
       <div className="flex flex-col justify-center text-center lg:text-justify lg:mr-12">
         <h1>{personal().profile.header}</h1>
-        <h4 className="lg:w-120 mt-10 mb-4">
+        <h4 className="lg:w-120 mt-6 lg:mt-10 mb-4">
           {personal().profile.content}
         </h4>
         <div className="lg:-ml-3 flex flex-row items-center justify-center lg:justify-start">
