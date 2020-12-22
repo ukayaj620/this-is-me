@@ -31,6 +31,10 @@ const images = (image) => {
   switch (image) {
     case 'profile':
       return require('../assets/images/me.png').default;
+    case 'methodist':
+      return require('../assets/images/methodist-3.jpg').default;
+    case 'ubm':
+      return require('../assets/images/bunda-mulia-university.png').default;
     default:
       return require('../assets/icons/about.svg').default;
   }
