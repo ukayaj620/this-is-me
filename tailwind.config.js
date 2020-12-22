@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        primary: ['Quicksand', 'sans-serif'],
+        primary: ['Montserrat', 'sans-serif'],
         content: ['Poppins', 'sans-serif'],
       },
       colors: {
