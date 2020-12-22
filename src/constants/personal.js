@@ -2,8 +2,11 @@ const personal = () => {
   return ({
     profile: {
       header: "Hi, I'm Jayaku Briliantio",
-      content: "I'm a freelance full stack developer and deep learning enthusiast. I'm also a Computer Science Student majoring in Mobile Application Technology at Bunda Mulia University.",
+      content: `I'm a freelance full stack developer and deep learning enthusiast. \ 
+      I'm also a Computer Science Student majoring in Mobile Application Technology at \
+      Bunda Mulia University.`,
     },
+
     socialInfo: [
       {
         icon: 'github',
@@ -22,6 +25,28 @@ const personal = () => {
         url: 'https://wa.me/6281375302111'
       },
     ],
+
+    educationInfo: [
+      {
+        image: 'ubm',
+        title: 'Bunda Mulia University',
+        year: '2018-2022',
+        major: "Bachelor's Degree, Computer Science",
+        description: `I studied Computer Science focused in Mobile Application Development \
+        in this university. Besides being a student, I involved in various activities such \
+        as participating Hackathon and Programming Competitions. I also involved in my major 
+        student organization called BIOS, where I act as Head of Research and Development.`
+      },
+      {
+        image: 'methodist',
+        title: 'SMA Swasta Methodist-3',
+        year: '2015-2018',
+        major: "Graduated High School, Natural Science (Physics)",
+        description: `During my senior high school, I mainly focused on Physics and Biology.\
+        Besides that, I also participate several competitions held by the Indonesia Goverment\
+        such as National Science Olympiad (OSN). I participate in Geosains and Biology olympiad.`
+      }
+    ]
   });
 };
 
