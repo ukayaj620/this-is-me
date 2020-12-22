@@ -7,7 +7,7 @@ import './styles/output.css';
 
 const App = () => {
   return (
-    <div className="flex flex-col lg:flex-row">
+    <div className="flex flex-col lg:flex-row w-screen">
       <BrowserRouter>
         <NavBar />
         <Switch>
