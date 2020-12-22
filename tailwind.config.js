@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         primary: ['Quicksand', 'sans-serif'],
+        content: ['Poppins', 'sans-serif'],
       },
       colors: {
         primary: '#073BC8',
