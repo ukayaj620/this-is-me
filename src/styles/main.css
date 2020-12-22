@@ -1,4 +1,6 @@
 @tailwind base;
+
+
 @tailwind components;
 
 /* NavIcon component */
@@ -16,7 +18,7 @@
 
 /* NavBar component */
 .nav-bar {
-  @apply flex flex-row justify-center items-center w-screen h-24 bg-primary rounded-b-2xl rounded-r-none;
+  @apply flex flex-row justify-center items-center w-screen h-24 bg-primary rounded-b-2xl rounded-r-none sticky top-0 left-0;
 }
 
 /* Profile component */
