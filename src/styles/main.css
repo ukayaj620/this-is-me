@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 
-/* NavIcon component style */
+/* NavIcon component */
 .nav-icon {
   @apply flex rounded-2xl p-3 mx-4;
 }
@@ -14,23 +14,26 @@
   @apply bg-transparent;
 }
 
+/* NavBar component */
 .nav-bar {
-  @apply flex flex-row justify-center items-center w-screen h-24 bg-primary rounded-b-2xl;
+  @apply flex flex-row justify-center items-center w-screen h-24 bg-primary rounded-b-2xl rounded-r-none;
 }
 
+/* Profile component */
 .profile {
   @apply w-44 h-44 rounded-full;
 }
 
 @screen lg {
+  /* NavIcon component */
   .nav-icon {
     @apply p-4 my-4;
   }
-
+  /* NavBar component */
   .nav-bar {
-    @apply flex-col w-32 h-screen rounded-r-3xl;
+    @apply flex-col w-32 h-screen rounded-r-3xl rounded-b-none;
   }
-
+  /* Profile component */
   .profile {
     @apply w-52 h-52;
   }
