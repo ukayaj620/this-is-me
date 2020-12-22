@@ -12,6 +12,16 @@ const icons = (icon) => {
       return require('../assets/icons/publication.svg').default;
     case 'publication-active':
       return require('../assets/icons/publication-active.svg').default;
+    case 'github':
+      return require('../assets/icons/github.svg').default;
+    case 'linkedin':
+      return require('../assets/icons/linkedin.svg').default;
+    case 'facebook':
+      return require('../assets/icons/facebook.svg').default;
+    case 'whatsapp':
+      return require('../assets/icons/whatsapp.svg').default;
+    case 'telegram':
+      return require('../assets/icons/telegram.svg').default;
     default:
       return require('../assets/icons/about.svg').default;
   }
