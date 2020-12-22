@@ -5,7 +5,7 @@ import personal from '../constants/personal';
 
 const ProfileSection = () => {
   return (
-    <div className="flex flex-col lg:flex-row-reverse items-center lg:items-stretch justify-between w-4/5 mt-8 lg:mt-16">
+    <div className="flex flex-col lg:flex-row-reverse items-center lg:items-stretch justify-between w-4/5 mt-8 lg:mt-4">
       <Profile />
       <div className="flex flex-col justify-center text-center lg:text-justify lg:mr-12">
         <h1>{personal().profile.header}</h1>
