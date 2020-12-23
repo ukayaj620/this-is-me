@@ -46,6 +46,29 @@ const personal = () => {
         Besides that, I also participate several competitions held by the Indonesia Goverment
         such as National Science Olympiad (OSN). I participate in Geosains and Biology olympiad.`
       }
+    ],
+
+    publicationInfo: [
+      {
+        title: `Penerapan Convolutional Neural Network untuk Handwriting Recognition 
+        pada Aplikasi Belajar Aritmatika Dasar Berbasis Web`,
+        author: 'Jayaku Briliantio, Nico Santosa, Garvin Ardian, Lukman Hakim',
+        doi: 'December 2020',
+        publisher: {
+          name: 'Jurnal Teknik Informatika UNIKA St. Thomas',
+          url: 'http://ejournal.ust.ac.id/index.php/JTIUST/',
+        },
+        links: [
+          {
+            text: 'Publication',
+            url: 'http://ejournal.ust.ac.id/index.php/JTIUST/article/view/945'
+          },
+          {
+            text: 'PDF',
+            url: 'http://ejournal.ust.ac.id/index.php/JTIUST/article/download/945/pdf1'
+          },
+        ]
+      },
     ]
   });
 };
