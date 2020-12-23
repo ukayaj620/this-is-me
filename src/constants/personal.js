@@ -69,6 +69,63 @@ const personal = () => {
           },
         ]
       },
+    ],
+
+    projectsInfo: [
+      {
+        title: 'C-Beta Backend',
+        image: 'cbeta',
+        associated: [
+          {
+            text: 'PT. Mega Medica Pharmaceuticals',
+            url: 'https://channa.id'
+          },
+          {
+            text: "BINUS University's BDSRC",
+            url: 'https://research.binus.ac.id/bdsrc/'
+          }
+        ],
+        tech: 'Node JS, Sequelize ORM, MySQL',
+        team: '',
+        description: `C-Beta is a platform designed to create surveys and collect data.
+        This application was created in collaboration with Bina Nusantara University (BINUS) with
+        PT. Mega Medica Pharmaceutical (MMP) to oversee the healing process for COVID-19 patients
+        which is supported by the provision of Striatamine products from MMP. By using C-Beta,
+        patients are expected to be monitored easily, recovery can be accelerated, and patient
+        recovery patterns can be modeled with data science.`,
+        links: [
+          {
+            text: 'Article',
+            url: 'https://research.binus.ac.id/bdsrc/2020/12/10/channa-benefit-tracking-app/'
+          },
+          {
+            text: 'Website',
+            url: 'http://dev.nusaiot.id:5000/',
+          },
+        ]
+      },
+      {
+        title: 'Rearive',
+        image: 'rearive',
+        associated: [
+          {
+            text: 'Abersoft Technologies',
+            url: 'https://abersoft.se/'
+          },
+        ],
+        tech: 'React JS, React Native, Node JS',
+        team: 'Andrew C.',
+        description: `Rearive is a stock monitoring system that makes shipping easier and safer.
+        Available as web app and mobile app, everything a user has to do is generate a QR code 
+        from the web app, print it out, and stick it on the things that are to be shipped. 
+        The mobile app then can be used to scan the QR code to verify the shipping.`,
+        links: [
+          {
+            text: 'Website',
+            url: 'http://portal.rearive.com/',
+          },
+        ]
+      },
     ]
   });
 };
