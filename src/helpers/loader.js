@@ -37,6 +37,10 @@ const images = (image) => {
       return require('../assets/images/methodist-3.jpg').default;
     case 'ubm':
       return require('../assets/images/bunda-mulia-university.png').default;
+    case 'rearive':
+      return require('../assets/images/rearive.png').default;
+    case 'cbeta':
+      return require('../assets/images/cbeta.png').default;
     default:
       return require('../assets/icons/about.svg').default;
   }
