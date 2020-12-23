@@ -73,6 +73,30 @@ const personal = () => {
 
     projectsInfo: [
       {
+        title: 'CovidFo',
+        image: 'covidfo',
+        associated: [],
+        tech: 'Flutter (Mobile Apps), React JS, TailwindCSS',
+        team: '',
+        description: `Covidfo is a website and mobile application that tracks information related 
+        to COVID-19, such as worldwide cases and news. This small project is created to accomplish 
+        my university final test at Bunda Mulia University`,
+        links: [
+          {
+            text: 'Apps GitHub',
+            url: 'https://github.com/ukayaj620/covidfo'
+          },
+          {
+            text: 'Website GitHub',
+            url: 'https://github.com/ukayaj620/covidfo-web'
+          },
+          {
+            text: 'Website',
+            url: 'https://covidfo.netlify.app/',
+          },
+        ]
+      },
+      {
         title: 'C-Beta Backend',
         image: 'cbeta',
         associated: [
@@ -85,7 +109,7 @@ const personal = () => {
             url: 'https://research.binus.ac.id/bdsrc/'
           }
         ],
-        tech: 'Node JS, Sequelize ORM, MySQL',
+        tech: 'Node JS, Express JS, Sequelize ORM, MySQL',
         team: '',
         description: `C-Beta is a platform designed to create surveys and collect data.
         This application was created in collaboration with Bina Nusantara University (BINUS) with
@@ -105,6 +129,57 @@ const personal = () => {
         ]
       },
       {
+        title: 'RestUp PHP Framework',
+        image: 'restup',
+        associated: [
+          {
+            text: 'Codenitiva',
+            url: 'https://codenitiva.netlify.app/'
+          },
+        ],
+        tech: 'PHP, Open CLI Framework(oclif)',
+        team: '',
+        description: `RESTUp PHP is a small light-weight PHP framework that can be used to 
+        develop maintainable and scalable REST APIs. RESTUp PHP also comes along with a CLI 
+        that will surely make developing APIs with PHP never be the same again. The framework 
+        and the CLI are open-sourced on Github. Any contributions are open.`,
+        links: [
+          {
+            text: 'CLI',
+            url: 'https://github.com/codenitiva/restup-cli',
+          },
+          {
+            text: 'GitHub',
+            url: 'https://github.com/codenitiva/restup-php',
+          }
+        ]
+      },
+      {
+        title: 'Codenitiva Website',
+        image: 'codenitiva',
+        associated: [
+          {
+            text: 'Codenitiva',
+            url: 'https://codenitiva.netlify.app/'
+          },
+        ],
+        tech: 'React JS, TailwindCSS',
+        team: 'Andrew C., Tommy S.',
+        description: `Codenitiva is a place where everyone can learn, share, and 
+        code with others that have the same passion and will to bring a better future 
+        for technology and education growth. This is the official website of Codenitiva.`,
+        links: [
+          {
+            text: 'GitHub',
+            url: 'https://github.com/codenitiva/codenitiva-website',
+          },
+          {
+            text: 'Website',
+            url: 'https://codenitiva.netlify.app/',
+          }
+        ]
+      },
+      {
         title: 'Rearive',
         image: 'rearive',
         associated: [
@@ -113,7 +188,7 @@ const personal = () => {
             url: 'https://abersoft.se/'
           },
         ],
-        tech: 'React JS, React Native, Node JS',
+        tech: 'React JS, React Native, Node JS, Express JS',
         team: 'Andrew C.',
         description: `Rearive is a stock monitoring system that makes shipping easier and safer.
         Available as web app and mobile app, everything a user has to do is generate a QR code 

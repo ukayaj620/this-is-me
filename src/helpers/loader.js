@@ -41,6 +41,12 @@ const images = (image) => {
       return require('../assets/images/rearive.png').default;
     case 'cbeta':
       return require('../assets/images/cbeta.png').default;
+    case 'restup':
+      return require('../assets/images/restup-php.png').default;
+    case 'codenitiva':
+      return require('../assets/images/codenitiva.png').default;
+    case 'covidfo':
+      return require('../assets/images/covidfo.png').default;
     default:
       return require('../assets/icons/about.svg').default;
   }
