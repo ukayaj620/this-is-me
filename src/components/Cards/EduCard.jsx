@@ -4,7 +4,7 @@ const EduCard = ({ image, title, major, year, description }) => {
   return (
     <div className="w-full my-3 lg:px-6 py-2 flex flex-col lg:flex-row items-center">
       <img
-        className="w-32 h-32 my-2 lg:mr-12"
+        className="w-28 h-28 lg:w-32 lg:h-32 my-2 lg:mr-12 rounded-full"
         src={images(image)}
         alt={title}
       />
