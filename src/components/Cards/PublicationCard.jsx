@@ -8,16 +8,18 @@ const PublicationCard = ({ title, author, doi, publisher, links }) => {
         <Anchor
           url={publisher.url}
           text={publisher.name}
+          bold
         />
         <h5 className="text-gray-500 font-semibold ml-2">[ {doi} ]</h5>
       </div>
       <h5 className="text-center text-gray-900 lg:mr-2 font-medium">Author: {author}</h5>
       <div className="flex w-full flex-row justify-end mt-1.5">
         {links.map(({ text, url }, index) => (
-          <div className="ml-3">
+          <div key={`#anchor-${text}-${index}`} className="ml-3">
             <Anchor
               url={url}
               text={text}
+              withLogo
             />
           </div>
         ))}
