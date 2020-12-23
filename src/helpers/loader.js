@@ -22,6 +22,8 @@ const icons = (icon) => {
       return require('../assets/icons/whatsapp.svg').default;
     case 'telegram':
       return require('../assets/icons/telegram.svg').default;
+    case 'link':
+      return require('../assets/icons/link.svg').default;
     default:
       return require('../assets/icons/about.svg').default;
   }
