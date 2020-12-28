@@ -47,6 +47,10 @@ const images = (image) => {
       return require('../assets/images/codenitiva.png').default;
     case 'covidfo':
       return require('../assets/images/covidfo.png').default;
+    case 'fluttt':
+      return require('../assets/images/flutictactoe.png').default;
+    case 'diptool':
+      return require('../assets/images/diptool.png').default;
     default:
       return require('../assets/icons/about.svg').default;
   }
