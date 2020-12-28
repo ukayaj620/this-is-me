@@ -97,6 +97,22 @@ const personal = () => {
         ]
       },
       {
+        title: 'Flu Tic Tac Toe',
+        image: 'fluttt',
+        associated: [],
+        tech: 'Flutter, Firebase',
+        team: '',
+        description: `Flu Tic Tac Toe is a simple game application to play tic tac toe online and real-time.
+        Player could host a game, then share the code to the others inorder to join the game. This simple game
+        is made to accomplish my university task on Mobile Application Development Course.`,
+        links: [
+          {
+            text: 'GitHub',
+            url: 'https://github.com/ukayaj620/flu-tictactoe'
+          },
+        ]
+      },
+      {
         title: 'C-Beta Backend',
         image: 'cbeta',
         associated: [
@@ -125,6 +141,23 @@ const personal = () => {
           {
             text: 'Website',
             url: 'http://dev.nusaiot.id:5000/',
+          },
+        ]
+      },
+      {
+        title: 'DIP-Tool',
+        image: 'diptool',
+        associated: [],
+        tech: 'Lazarus IDE',
+        team: 'Jason A.',
+        description: `DIP-Tools is a desktop application build using Lazarus IDE. 
+        This is one of my Mid Term Project for the Digital Image Processing Course at Bunda Mulia University. 
+        The feature included in this application is Binarization, Grayscaling, Brightness and 
+        Contrast control, Smoothing, Sharpening, and Sketching an image.`,
+        links: [
+          {
+            text: 'GitHub Repo',
+            url: 'https://github.com/ukayaj620/dip-tools'
           },
         ]
       },
