@@ -51,6 +51,8 @@ const images = (image) => {
       return require('../assets/images/flutictactoe.png').default;
     case 'diptool':
       return require('../assets/images/diptool.png').default;
+    case 'itevenz':
+      return require('../assets/images/itevenz.png').default;
     default:
       return require('../assets/icons/about.svg').default;
   }

@@ -73,6 +73,27 @@ const personal = () => {
 
     projectsInfo: [
       {
+        title: 'Itevenz',
+        image: 'itevenz',
+        associated: [],
+        tech: 'Flask, Bootstrap, PostgreSQL',
+        team: '',
+        description: `Itevenz is a simple website to host IT events, participating an event. It acts like 
+        yellow pages of upcoming IT events hosted by users. Currently, this website is under development and 
+        still in beta version. This simple projects is to accomplish my university assignment on Web Programming 
+        course.`,
+        links: [
+          {
+            text: 'GitHub',
+            url: 'https://github.com/ukayaj620/itevenz'
+          },
+          {
+            text: 'Website',
+            url: 'https://itevenz.herokuapp.com/',
+          },
+        ]
+      },
+      {
         title: 'CovidFo',
         image: 'covidfo',
         associated: [],
